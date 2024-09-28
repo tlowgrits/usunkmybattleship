@@ -1,3 +1,48 @@
+Name: U Sunk My Battleship
+Getting Started: 
+Instructions
+1. Hit "Start Game" to automatically set pieces.
+2. Red Team starts and selects a space on the Blue Team's board.
+3. If a hit, space will fill with a hint as to what ship type it is.
+4. If a miss, space will be colored white.
+5. Turn switches after a hit or a miss and continues until all battleships are sunk.
+
+Link to game: https://tlowgrits.github.io/usunkmybattleship/
+
+Attributions: MDN, W3Schools for help with automating ship placement.
+
+Technologies Used: Javascript, HTML, CSS
+
+Next Steps:
+1. Resolve titling issue & remove preview of Red Team's Board placement.
+2. Add pictures and animations.
+3. Style board.
+
+Screenshot: 
+
+![screenshot of program](<assets/Screen Shot 2024-09-28 at 9.15.10 AM.png>)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Planning materials:
+
 Psuedocode:
 
 Players will arrive on a landing page and select Start Game to launch the game. (edit: instead of select player, used start game button instead)

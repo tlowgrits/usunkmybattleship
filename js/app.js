@@ -29,7 +29,7 @@ let gameOver = false;
 // Connect player grids
 const redTeamGridEl = document.createElement('div');
 redTeamGridEl.classList.add('grid');
-document.body.appendChild(redTeamGridEl);
+document.body.append(redTeamGridEl);
 
 const blueTeamGridEl = document.createElement('div');
 blueTeamGridEl.classList.add('grid');
@@ -215,8 +215,8 @@ function renderBoard(board, gridElement, hideShips = false) {
     }
 }
 
-function updateMessage(message) {
-    statusMessageEl.textContent = message;
+function updateMessage(msg) {
+    statusMessageEl.textContent = msg;
 }
 
 /*----------- Event Listeners ----------*/
