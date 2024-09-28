@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: seagreen;
+}
+
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    grid-template-rows: repeat(10, 30px);
+    gap: 2px;
+    justify-content: center;
+    align-content: top;
+    direction: ltr;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: lightblue;
+    border: 1px solid #333;
+    cursor: pointer;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.cell.ship {
+    background-color: gray;
+}
+
+.cell.hit {
+    background-color: red;
+}
+
+.cell.miss {
+    background-color: white;
+}
+
+.cell::after {
+    content: attr(data-marker);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    color: black;
+}
+
+#status-message {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+#start-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
