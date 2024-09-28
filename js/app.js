@@ -221,10 +221,12 @@ function updateMessage(msg) {
 
 /*----------- Event Listeners ----------*/
 
+// Add click event listener to "Start Game" button
 startButton.addEventListener("click", () => {
     initGame();
 });
 
+// Event listener that controls Red Team's Turn on click and triggers checking against the blue ship board
 blueTeamGridEl.addEventListener("click", event => {
     if (gameOver || currentPlayer !== redTeam) return;
 
@@ -237,6 +239,7 @@ blueTeamGridEl.addEventListener("click", event => {
     }
 });
 
+// Event listener that controls Blue Team's turn on click and triggers checking against red ship board
 redTeamGridEl.addEventListener("click", event => {
     if (gameOver || currentPlayer !== blueTeam) return;
 
