@@ -9,7 +9,7 @@ Instructions
 
 Link to game: https://tlowgrits.github.io/usunkmybattleship/
 
-Attributions: MDN, W3Schools for help with automating ship placement.
+Attributions: MDN, W3Schools, and Stack Overflow for help with automating ship placement, creating grid and.
 
 Technologies Used: Javascript, HTML, CSS
 
@@ -20,28 +20,13 @@ Next Steps:
 
 Screenshot: 
 
-![screenshot of program](<assets/Screen Shot 2024-09-28 at 9.15.10 AM.png>)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![screenie of game](assets/image.png)
 
 
 
 Planning materials:
+
+[See commented code]
 
 Psuedocode:
 
